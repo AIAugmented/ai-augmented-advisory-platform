@@ -1,0 +1,38 @@
+{
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "printWidth": 80,
+  "bracketSpacing": true,
+  "arrowParens": "avoid",
+  "importOrder": [
+    "^react$",
+    "^next$",
+    "<BUILTIN_MODULES>",
+    "",
+    "<THIRD_PARTY_MODULES>",
+    "",
+    "^@/auth",
+    "",
+    "^@/store",
+    "",
+    "^@/components",
+    "",
+    "^@/services",
+    "",
+    "^@/lib",
+    "",
+    "^@/types",
+    "",
+    "^@/",
+    "",
+    "^[.]"
+  ],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true,
+  "tailwindStylesheet": "./app/globals.css",
+  "plugins": [
+    "@ianvs/prettier-plugin-sort-imports",
+    "prettier-plugin-tailwindcss"
+  ]
+}
